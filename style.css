@@ -576,10 +576,6 @@ body.appear #container {
 }
 
 .page-top {
-	display: none;
-	/* scripr.js内で動きを作るまではnoneが適用されて出てこない 
-    JSを編集して要素のスタイルを変更することで出てくる（element.styleに”display: block;”が追記）
-    なぜそうなるかはJSを要勉強*/
 	position: fixed;
 	right: 40px;
 	bottom: 40px;
@@ -595,7 +591,6 @@ body.appear #container {
 	color: var(--white);
 	text-align: center;
 	text-decoration: none;
-	transition: opacity 0.3s;
 	border-radius: 50%;
 	background: #5890de;
 	cursor: pointer;

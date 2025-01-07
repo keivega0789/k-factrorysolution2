@@ -37,11 +37,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	// ページトップへ戻る
 	const pageTop = document.querySelector('.page-top');
+
+	// 初期状態で非表示の設定
+	pageTop.style.opacity = '0';
+	pageTop.style.visibility = 'hidden';
+	pageTop.style.transition = 'opacity 0.5s ease, visibility 0.5s ease';
+
 	window.addEventListener('scroll', () => {
 		if (window.scrollY > 300) {
-			pageTop.style.display = 'block';
+			pageTop.style.opacity = '1';
+			pageTop.style.visibility = 'visible';
 		} else {
-			pageTop.style.display = 'none';
+			pageTop.style.opacity = '0';
+			pageTop.style.visibility = 'hidden';
 		}
 	});
 
