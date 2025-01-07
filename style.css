@@ -928,6 +928,10 @@ body.appear #container {
 		font-size: 12px;
 	}
 
+	.about-body {
+		padding: 0;
+	}
+
 	.about-title,
 	.about-explain {
 		font-size: 14px;
@@ -941,14 +945,6 @@ body.appear #container {
 
 	.about-subtitle {
 		font-size: 10px;
-	}
-
-	.about-img-wrapper {
-		padding: 0;
-	}
-
-	.about-video-wrapper {
-		padding: 0;
 	}
 
 	.product-list {
