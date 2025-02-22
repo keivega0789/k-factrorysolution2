@@ -1,125 +1,185 @@
 <!DOCTYPE html>
 <html lang="ja">
-<!-- OGPの使用を宣言 -->
-<head prefix="og: https://ogp.me/ns#">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- OGP設定 -->
-    <meta property="og:url" content=" ページのURL" /><!-- 絶対パスで記述 -->
-    <meta property="og:type" content="website" /><!-- website,blog,article,product等 -->
-    <meta property="og:title" content="株式会社 K-ファクトリーソリューション" /><!-- 20文字程度 -->
-    <meta property="og:description" content="株式会社 K-ファクトリーソリューションは、食品加工製造における省力化装置に強みを持ち、労働負荷低減・生産性向上を実現することで、お客さまに「Best Solution」を提供します。" /><!-- 80-90文字程度 -->
-    <meta property="og:site_name" content="株式会社 K-ファクトリーソリューション" /><!-- サイト名やブランド情報 -->
-    <meta property="og:image" content=" サムネイル画像のURL" /><!-- 1200px✕630px(fb対策) -->
-    <!-- /OGP設定 -->
-    <title>PRODUCTS - 制作実績 | 株式会社    K-ファクトリーソリューション</title><!-- ブラウザのタブに表示される名前 -->
-    <!-- googleフォント参照：googleフォントのサイト https://fonts.google.com/ から使うフォントのコードをコピペ　-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-    <!-- googleアイコン参照：下記コードはテンプレ。 -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-    <!-- リセットCSS参照：destyle以外にも調べてみる -->
-    <link rel="stylesheet" href="css/destyle.css">
-    <!-- CSS参照 -->
-    <link rel="stylesheet" href="style.css">
-    <!-- ファビコン設置：ファビコン生成サイト https://ao-system.net/favicongenerator/ で作成し、フォルダ直下に格納する。下記名前と整合性合うように。 -->
-    <link rel="icon" type="image/png" href="icon-192x192.png">
-    <link rel="apple-touch-icon" type="image/png" href="apple-touch-icon-180x180.png">
-    <link rel="icon" href="favicon.ico">
-</head>
+	<!-- OGPの使用を宣言 -->
+	<head prefix="og: https://ogp.me/ns#">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- OGP設定 -->
+		<meta property="og:url" content=" ページのURL" />
+		<!-- 絶対パスで記述 -->
+		<meta property="og:type" content="website" />
+		<!-- website,blog,article,product等 -->
+		<meta
+			property="og:title"
+			content="株式会社 K-ファクトリーソリューション"
+		/>
+		<!-- 20文字程度 -->
+		<meta
+			property="og:description"
+			content="株式会社 K-ファクトリーソリューションは、食品加工製造における省力化装置に強みを持ち、労働負荷低減・生産性向上を実現することで、お客さまに「Best Solution」を提供します。"
+		/>
+		<!-- 80-90文字程度 -->
+		<meta
+			property="og:site_name"
+			content="株式会社 K-ファクトリーソリューション"
+		/>
+		<!-- サイト名やブランド情報 -->
+		<meta property="og:image" content=" サムネイル画像のURL" />
+		<!-- 1200px✕630px(fb対策) -->
+		<!-- /OGP設定 -->
+		<title>
+			PRODUCTS - 制作実績 | 株式会社 K-ファクトリーソリューション
+		</title>
+		<!-- ブラウザのタブに表示される名前 -->
+		<!-- googleフォント参照：googleフォントのサイト https://fonts.google.com/ から使うフォントのコードをコピペ　-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- googleアイコン参照：下記コードはテンプレ。 -->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+			rel="stylesheet"
+		/>
+		<!-- リセットCSS参照：destyle以外にも調べてみる -->
+		<link rel="stylesheet" href="css/destyle.css" />
+		<!-- CSS参照 -->
+		<link rel="stylesheet" href="style.css" />
+		<!-- ファビコン設置：ファビコン生成サイト https://ao-system.net/favicongenerator/ で作成し、フォルダ直下に格納する。下記名前と整合性合うように。 -->
+		<link rel="icon" type="image/png" href="icon-192x192.png" />
+		<link
+			rel="apple-touch-icon"
+			type="image/png"
+			href="apple-touch-icon-180x180.png"
+		/>
+		<link rel="icon" href="favicon.ico" />
+	</head>
 
-<body class="fadeout">
-    <header id="header">
-        <div class="header-inner">
-            <div class="header-logo">
-                <a href="."><img src="assets/img/logo.png" alt=""></a>
-            </div>
-                <nav class="gnav">
-                    <ul class="gnav-list">
-                        <li class="gnav-item underLine"><a href="products.html">PRODUCTS</a></li>
-                        <li class="gnav-item underLine"><a href="company.html">COMPANY</a></li>
-                        <li class="gnav-item"><a href="contact.html" class="btn">CONTACT</a></li>
-                    </ul>
-                </nav>
-                <button type="button" id="js-btn-menu" class="btn-menu">
-                    <span class="btn-menu-line"></span>
-                </button>
-        </div>
-    </header>
+	<body class="fadeout">
+		<header id="header">
+			<div class="header-inner">
+				<div class="header-logo">
+					<a href="."><img src="assets/img/logo.png" alt="" /></a>
+				</div>
+				<nav class="gnav">
+					<ul class="gnav-list">
+						<li class="gnav-item underLine">
+							<a href="products.html">PRODUCTS</a>
+						</li>
+						<li class="gnav-item underLine">
+							<a href="company.html">COMPANY</a>
+						</li>
+						<li class="gnav-item">
+							<a href="contact.html" class="btn">CONTACT</a>
+						</li>
+					</ul>
+				</nav>
+				<button type="button" id="js-btn-menu" class="btn-menu">
+					<span class="btn-menu-line"></span>
+				</button>
+			</div>
+		</header>
 
-    <div class="hero">
-        <div class="hero-inner">
-                <h2 class="hero-title">PRODUCTS</h2>
-                <div class="hero-subtitle">制作実績</div>
-        </div>
-    </div>
+		<div class="hero">
+			<div class="hero-inner">
+				<h2 class="hero-title">PRODUCTS</h2>
+				<div class="hero-subtitle">制作実績</div>
+			</div>
+		</div>
 
-    <main id="content" class="wrapper">
-        <div class="m-products-body">
-            <ul class="m-product-list">
-                <li class="m-product-list-item">
-                    <figure class="m-product-list-img">
-                        <img src="assets/img/product1.png" alt="麺取り装置の画像">
-                    </figure>
-                    <div class="m-product-list-body">
-                        <div class="m-product-list-title">麵取り装置</div>
-                        <div class="m-product-list-text">
-                            <p>麺取り作業の省力化装置です。<br>従来は5人の作業者が必要でしたが、本装置の導入により、ひとり作業が可能となります。また、作業者への作業負荷が3分の1へ軽減され、熟練度を要しない作業レベルとなることから作業担当のアサインが容易となります。</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="m-product-list-item">
-                    <figure class="m-product-list-img">
-                        <img src="assets/img/product2.png" alt="ほぐし液噴霧装置の画像">
-                    </figure>
-                    <div class="m-product-list-body">
-                        <div class="m-product-list-title">ほぐし液噴霧装置</div>
-                        <div class="m-product-list-text">
-                            <p>ほぐし液噴霧装置です。<br>麺の品質維持にはほぐし液が欠かせません。本装置は麺取り装置の一部に組み込まれており、麺にしっかりと噴霧されるよう制御されます。ノズルは逆方向にも設置が可能です。</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="m-product-list-item">
-                    <figure class="m-product-list-img">
-                        <img src="assets/img/product1.png" alt="ゆで麺用麺除去装置の画像">
-                    </figure>
-                    <div class="m-product-list-body">
-                        <div class="m-product-list-title">ゆで麺用麺除去装置</div>
-                        <div class="m-product-list-text">
-                            <p>麺取り作業の省力化装置です。<br>従来は5人の作業者が必要でしたが、本装置の導入により、ひとり作業が可能となります。また、作業者への作業負荷が3分の1へ軽減され、熟練度を要しない作業レベルとなることから作業担当のアサインが容易となります。</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </main>
+		<main id="content" class="wrapper">
+			<div class="m-products-body">
+				<ul class="m-product-list">
+					<li class="m-product-list-item">
+						<figure class="m-product-list-img">
+							<img
+								src="assets/img/product1.png"
+								alt="麺取り装置の画像"
+							/>
+						</figure>
+						<div class="m-product-list-body">
+							<div class="m-product-list-title">麵取り装置</div>
+							<div class="m-product-list-text">
+								<p>
+									麺取り作業の省力化装置です。<br />従来は5人の作業者が必要でしたが、本装置の導入により、ひとり作業が可能となります。また、作業者への作業負荷が3分の1へ軽減され、熟練度を要しない作業レベルとなることから作業担当のアサインが容易となります。
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="m-product-list-item">
+						<figure class="m-product-list-img">
+							<img
+								src="assets/img/product2.png"
+								alt="ほぐし液噴霧装置の画像"
+							/>
+						</figure>
+						<div class="m-product-list-body">
+							<div class="m-product-list-title">
+								ほぐし液噴霧装置
+							</div>
+							<div class="m-product-list-text">
+								<p>
+									ほぐし液噴霧装置です。<br />麺の品質維持にはほぐし液が欠かせません。本装置は麺取り装置の一部に組み込まれており、麺にしっかりと噴霧されるよう制御されます。ノズルは逆方向にも設置が可能です。
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="m-product-list-item">
+						<figure class="m-product-list-img">
+							<img
+								src="assets/img/product1.png"
+								alt="ゆで麺用麺除去装置の画像"
+							/>
+						</figure>
+						<div class="m-product-list-body">
+							<div class="m-product-list-title">
+								ゆで麺用麺除去装置
+							</div>
+							<div class="m-product-list-text">
+								<p>
+									麺取り作業の省力化装置です。<br />従来は5人の作業者が必要でしたが、本装置の導入により、ひとり作業が可能となります。また、作業者への作業負荷が3分の1へ軽減され、熟練度を要しない作業レベルとなることから作業担当のアサインが容易となります。
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</main>
 
-    <footer id="footer">
-        <nav class="footer-gnav">
-            <ul class="f-gnav-list">
-                <li class="f-gnav-item regular underLine"><a href="products.html">PRODUCTS</a></li>
-                <li class="f-gnav-item regular underLine"><a href="company.html">COMPANY</a></li>
-                <li class="f-gnav-item regular underLine"><a href="privacy-policy.html">PRIVACY POLICY</a></li>
-            </ul>
-        </nav>
-        <div class="footer-btn">
-            <a href="contact.html" class="btn">CONTACT</a>
-        </div>
-        <div class="copyright">
-            &copy;2023 K-FACTORY SOLUTION
-        </div>
-    </footer>
-    <div class="page-top">
-        <button class="page-top-link">
-            <span class="page-top-icon material-icons-round">
-                keyboard_arrow_up
-            </span>
-        </button>
-    </div>
+		<footer id="footer">
+			<nav class="footer-gnav">
+				<ul class="f-gnav-list">
+					<li class="f-gnav-item regular underLine">
+						<a href="products.html">PRODUCTS</a>
+					</li>
+					<li class="f-gnav-item regular underLine">
+						<a href="company.html">COMPANY</a>
+					</li>
+					<li class="f-gnav-item regular underLine">
+						<a href="privacy-policy.html">PRIVACY POLICY</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="footer-btn">
+				<a href="contact.html" class="btn">CONTACT</a>
+			</div>
+			<div class="copyright">&copy;2023 K-FACTORY SOLUTION</div>
+		</footer>
+		<div class="page-top">
+			<button class="page-top-link">
+				<span class="page-top-icon material-icons-round">
+					keyboard_arrow_up
+				</span>
+			</button>
+		</div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script><!-- 最新バージョン確認すること -->
-    <script src="js/slick.min.js"></script><!-- slickの設置 -->
-    <script src="js/script.js"></script><!-- 名前の整合性合わせること -->
-
-</body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<!-- 最新バージョン確認すること -->
+		<script src="js/slick.min.js"></script>
+		<!-- slickの設置 -->
+		<script src="js/script.js"></script>
+		<!-- 名前の整合性合わせること -->
+	</body>
+</html>
