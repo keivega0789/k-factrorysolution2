@@ -284,7 +284,7 @@ body.appear #container {
 
 .mv-imgArea {
 	position: relative;
-	max-width: 65%;
+	max-width: 1080px;
 }
 
 .mv-imgArea-title {
@@ -384,6 +384,7 @@ body.appear #container {
 }
 
 .about-explain {
+	margin-top: 20px;
 	margin-bottom: 30px;
 	line-height: 2;
 }
@@ -393,6 +394,11 @@ body.appear #container {
 	line-height: 1;
 	font-weight: bold;
 	color: #d9a21b;
+}
+
+.about-video-wrapper {
+	max-width: 1500px;
+	margin: 0 auto;
 }
 
 .about-video-wrapper-title {
@@ -411,7 +417,7 @@ body.appear #container {
 	text-align: center;
 	display: grid;
 	column-gap: 30px;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
+	grid-template-columns: repeat(2, minmax(0, 1fr));
 	padding: 0 100px;
 }
 
@@ -635,6 +641,8 @@ body.appear #container {
 .m-product-list {
 	text-align: left;
 	padding: 70px 70px;
+	margin: 0 auto;
+	max-width: 1500px;
 }
 
 .m-product-list-item {
@@ -662,7 +670,7 @@ body.appear #container {
 }
 
 .m-product-list-text {
-	font-size: 18px;
+	font-size: 13px;
 	line-height: 2;
 }
 
@@ -673,6 +681,8 @@ body.appear #container {
 
 .company-info-inner {
 	padding: 70px 0;
+	max-width: 1500px;
+	margin: 0 auto;
 }
 
 .company-info-heading {
@@ -748,7 +758,7 @@ body.appear #container {
 	opacity: 0.5;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 	#splash-logo {
 		text-align: left;
 		font-size: 50px;
@@ -769,7 +779,6 @@ body.appear #container {
 	}
 
 	.scrolldown1 {
-		position: absolute;
 		left: 50%;
 		bottom: 15%;
 	}
