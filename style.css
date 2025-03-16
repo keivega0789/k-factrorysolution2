@@ -469,39 +469,36 @@ body.appear #container {
 }
 
 /* facilities */
+.facilities-table-list {
+	padding: 0 100px;
+}
 
-.facilities-item {
-	padding: 0 30px;
+.facilities-table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	max-width: 1500px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.facilities-table tr {
+	border-bottom: solid 1px #ddd;
+}
+
+.facilities-table th,
+.facilities-table td {
+	padding: 13px;
 	text-align: center;
+	border-left: solid 1px #f3f9ff;
 }
 
-.facilities-title {
-	font-size: 18px;
-	font-weight: bold;
-	margin: 20px 0 10px 0;
+.facilities-table th {
+	background: var(--blue);
+	color: #f3f9ff;
 }
 
-.facilities-text {
-	font-size: 13px;
-}
-
-/* slickの追加設定 */
-.btn-prev,
-.btn-next {
-	position: absolute;
-	z-index: 100;
-	top: 50%;
-	transform: translateY(-50%);
-	font-size: 48px;
-	color: var(--blue);
-	cursor: pointer;
-}
-
-.btn-prev {
-	left: 0;
-}
-.btn-next {
-	right: 0;
+.facilities-table td {
+	text-align: left;
 }
 
 /* company */
@@ -640,7 +637,7 @@ body.appear #container {
 
 .m-product-list {
 	text-align: left;
-	padding: 70px 70px;
+	padding: 70px 70px 0 70px;
 	margin: 0 auto;
 	max-width: 1500px;
 }
@@ -672,6 +669,34 @@ body.appear #container {
 .m-product-list-text {
 	font-size: 13px;
 	line-height: 2;
+}
+
+.heading-whole-product {
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	line-height: 1;
+	color: var(--blue);
+	padding-bottom: 20px;
+}
+
+.m-whole-product {
+	padding: 0 70px 70px 70px;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.m-whole-product-list {
+	padding: 10px 0;
+	font-weight: bold;
+	font-size: 17px;
+	color: #404040;
+	border-left: solid 6px var(--blue); /*左側の線*/
+	border-bottom: solid 2px #ddd; /*下に灰色線*/
+	margin-bottom: 17px; /*下のバーとの余白*/
+	line-height: 1.5;
+	padding: 0.5em;
+	font-weight: bold;
 }
 
 /* Company-会社概要ページ */
@@ -970,6 +995,25 @@ body.appear #container {
 		font-size: 30px;
 	}
 
+	.facilities-table-list {
+		padding: 0;
+	}
+
+	.facilities-table th,
+	.facilities-table td {
+		padding: 6px;
+		text-align: center;
+		border-left: solid 1px #f3f9ff;
+	}
+
+	.facilities-table th {
+		font-size: 10px;
+	}
+
+	.facilities-table td {
+		font-size: 8px;
+	}
+
 	.btn-prev {
 		left: 20px;
 	}
@@ -1048,6 +1092,14 @@ body.appear #container {
 	.m-product-list-text {
 		font-size: 14px;
 		line-height: 1.5;
+	}
+
+	.m-whole-product {
+		padding: 0 0 20px 0;
+	}
+
+	.m-whole-product-list {
+		font-size: 13px;
 	}
 
 	.main-page {
