@@ -291,9 +291,9 @@ body.appear #container {
 	position: absolute;
 	right: 5%;
 	bottom: 5%;
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: bold;
-	line-height: 1;
+	line-height: 1.5;
 	color: var(--white);
 	/* transform: skewY(-13deg); */
 }
@@ -959,7 +959,9 @@ body.appear #container {
 	}
 
 	.mv-imgArea-title {
-		font-size: 12px;
+		font-size: 10px;
+		right: 0;
+		bottom: 0;
 	}
 
 	.about-body {
