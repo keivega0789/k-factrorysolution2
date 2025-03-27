@@ -67,37 +67,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 });
 
-// //slickだけはjQuery使った
-// $(() => {
-// 	// pickupスライダー
-// 	$('.slick-area').slick({
-// 		arrows: true,
-// 		centerMode: true,
-// 		centerPadding: '100px',
-// 		slidesToShow: 3,
-// 		responsive: [
-// 			{
-// 				breakpoint: 1500,
-// 				settings: {
-// 					centerPadding: '50px',
-// 					slidesToShow: 2,
-// 				},
-// 			},
-// 			{
-// 				breakpoint: 768,
-// 				settings: {
-// 					centerPadding: '30px',
-// 					slidesToShow: 1,
-// 				},
-// 			},
-// 		],
-// 		prevArrow:
-// 			'<span class="btn-prev material-icons-round">chevron_left</span>',
-// 		nextArrow:
-// 			'<span class="btn-next material-icons-round">chevron_right</span>',
-// 	});
-// });
-
 // スクロール時に要素がフェードイン
 const animateFade = (entries, observer) => {
 	entries.forEach((entry) => {
